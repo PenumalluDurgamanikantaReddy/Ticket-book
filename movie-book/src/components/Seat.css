@@ -1,0 +1,95 @@
+.Bseat{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+   border-color: rgb(48, 189, 228);
+    border-width: 2px;
+  }
+.Bseat:hover{
+    border-color: rgb(25, 250, 4);
+}
+
+
+
+
+.selectedseat{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(34, 198, 243);
+    border-radius: 5px;
+    border-style: solid;
+   border-color: rgb(48, 189, 228);
+    border-width: 2px;
+ 
+}
+.UnavialableSeat{
+
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+   border-color: rgb(48, 189, 228);
+    border-width: 2px;
+font-size: larger;
+color: black;
+
+}
+.UnavialableSeat:hover {
+  
+    border-color: rgb(231, 5, 5);
+}
+
+
+
+.Layout{
+   top:5rem;
+   left: 35rem;
+   position: relative;
+   display: flex;
+ 
+  justify-content: center;
+   width: 50rem; 
+   height: 35rem;
+   border-radius: 5px;
+   border-style: solid;
+  border-color: rgb(48, 189, 228);
+   border-width: 2px;
+
+}
+
+.seatslist{
+   top: 10px;
+   position: relative;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    height:25% ;
+  
+
+}
+
+.secondclasslist{
+    
+    top: 150px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+}
+
+.rupee{
+/* content: "\20B9"; */
+    font-size: 18px;
+}
+.ticketprices{
+left: 45rem;
+position: relative;
+    display: flex;
+    gap: 10rem;
+}

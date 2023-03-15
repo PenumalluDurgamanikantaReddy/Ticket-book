@@ -1,0 +1,95 @@
+.payDetails{
+left: 400px;
+top: 200px;
+position: relative;
+    display: flex;
+gap: 5rem;
+}
+.movieandSeat{
+width: 600px;
+height: 300px;
+border-radius: 20px;
+background-color:rgb(254, 255, 255);
+box-shadow: 5px 5px 5px 5px rgba(143, 143, 143, 0.75);
+display: flex;
+align-items: flex-start;
+gap: 2rem;
+}
+.Payment{
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color:rgb(254, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgba(143, 143, 143, 0.75);
+
+}
+.movieimg{
+    top:20px;
+    left: 15px;
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.movietype{
+    display: flex;
+   gap: 1rem;
+}
+
+.movietime{
+
+    top:4rem;
+    position: relative;
+}
+
+.ticketcount{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 4rem;
+}
+.Aticketcount{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 3.2rem;
+
+}
+
+.Bticketcount{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 2.9rem;
+
+}
+
+.Totalprice{
+
+    display: flex;
+    align-items: flex-start;
+    margin-left: 60px;
+    gap: 4rem;
+}
+
+.paybutton{
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(91, 192, 255);;
+}
+
+.timer{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.timeclock{
+
+    top: 2rem;;
+    position: relative;
+}

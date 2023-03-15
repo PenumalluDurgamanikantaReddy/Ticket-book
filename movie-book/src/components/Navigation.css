@@ -1,0 +1,92 @@
+.navgation{
+    height: 7rem;
+    width: 100%;
+    background-color:gainsboro;
+
+}
+
+.date{
+ 
+    /* display: flex;
+    flex-direction: column;
+    background-color: blue;
+    flex-wrap: nowrap;
+    max-width: 5rem;
+    max-height: 8rem;
+    overflow: hidden; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(197, 197, 197); */
+    max-width: 4rem;
+    font-size: large;
+    left: 20rem;
+    position: absolute;
+    top:1rem;
+}
+
+
+ #day{
+  color: rgb(98, 98, 98);
+} 
+#dates{
+    color: black;
+    left: 12px;
+    position: relative;
+}
+
+.timeandlangue{
+    top:1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(63, 188, 246);
+     width: 7rem;
+     height: 2.5rem;
+    border-radius: 5px;
+    font-size: large;
+    left: 30rem;
+  position: absolute;
+
+}
+
+#time{
+    color: white;
+}
+#lang{
+    color: white;
+}
+.seat{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: solid;
+   border-color: rgb(48, 189, 228);
+    border-width: 2px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.seatbooked{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgb(168, 168, 168);
+    border-radius: 5px;
+    border-style: solid;
+   border-color: rgb(168, 168, 168);
+    border-width: 2px;
+
+}
+.seatinfo{
+    display: flex;
+     gap: 4rem;
+    padding: 4rem;
+    
+    left: 80rem;
+    bottom: 0.5rem;
+    position: relative;
+}
+.seats{
+    display:flex;
+    gap: 0.5rem;
+}
