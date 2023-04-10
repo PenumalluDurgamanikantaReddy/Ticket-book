@@ -50,7 +50,7 @@ return(
             <h4>Secondclass Seats</h4>
             <h4>{secondclassSeats}</h4>
            </main>
-           <hr></hr>
+          
            <main className="Totalprice">
              <h2>Total</h2>
             <h2>{totalAmount}</h2>
